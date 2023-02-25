@@ -1,19 +1,18 @@
+import { Outlet, RouterProvider } from "react-router"
+import Header from "./components/header"
+import Footer from "./components/footer"
+import { Primary } from "./routes/Primary-Routes"
 import "./styles/app.css"
 
 const App = () => {
 
   return (
-    <div id="main" className="w-screen-overflow h-screen-overflow">
-      <div className="titleDiv">
-      <h1 className="title">Rich Kevan</h1>
-      <div id="nav">
-        <a>About</a>
-        <a>Contact</a>
-        <a>Blog</a>
+    <div className="main">
+      <Header />
+      <div className="body">
+      <Outlet />
       </div>
-      </div>
-      <div id="content">
-      </div>
+      <Footer />
     </div>
   )
 }

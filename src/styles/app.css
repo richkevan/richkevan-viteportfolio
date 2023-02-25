@@ -1,33 +1,12 @@
-.titleDiv {
-  height: 0;
-  padding-top: 15%;
-  position: relative;
+@import url(./header.css);
+@import url(./body.css);
+@import url(./mobile/mobile.css);
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  gap: 3rem;
+  padding: 1rem 1.5rem;
 }
 
-.title {
-  font-size: 4rem;
-  font-family: 'Lobster', cursive;
-  white-space: nowrap;
-  width: max-content;
-  transform-origin: top left;
-  transform: skew(-35deg) rotate(-20deg) translate(10%, 120%);
-  text-decoration: underline;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#nav {
-  position: absolute;
-  bottom: 50%;
-  right: 0;
-  width: 60%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-
-#content {
-  width: 100%;
-  height: 80%;
-}
