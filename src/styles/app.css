@@ -1,6 +1,12 @@
 @import url(./header.css);
 @import url(./body.css);
+@import url(./width-classes.css);
 @import url(./mobile/mobile.css);
+
+#root {
+  overflow: hidden;
+  height: 100%;
+}
 
 .main {
   display: grid;
@@ -8,5 +14,5 @@
   grid-template-rows: 1fr 3fr 1fr;
   gap: 3rem;
   padding: 1rem 1.5rem;
+  overflow: hidden;
 }
-

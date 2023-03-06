@@ -2,7 +2,12 @@
 
 const Blog = () => {
   return (
-    <>Blog</>
+    <>
+    <div className="pageTitle">BLOG</div>
+      <div className="content overflow">
+          <div className="caution"></div>
+    </div>
+  </>
   )
 }
 
