@@ -18,11 +18,11 @@ const Projects = () => {
             <div className="caution"></div>
           </div>
           <div className="card glass overflow">
-            4
+            Insta Download
             <div className="caution"></div>
           </div>
           <div className="card glass overflow">
-            5
+            Youtube Download
             <div className="caution"></div>
           </div>
           <div className="card glass overflow">

@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Developer Portfolio Site for Rich Kevan",
   "type": "module",
+  "main": "./src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "deploy": "vite build && firebase deploy --only hosting:rich-kevan"
   },
   "author": "Rich Kevan",
   "license": "MIT",
@@ -20,6 +22,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "firebase": "^9.17.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.8.1",
